@@ -1,4 +1,4 @@
-# 🏦 Bank Transaction Analysis — Extended EDA & Customer Intelligence
+# 🏦 Bank Transaction Analysis — EDA & Customer Intelligence
 
 > **End-to-end Python analytics project** on 5,000 bank transactions — covering spending patterns, cohort retention, RFM segmentation, churn detection, and campaign targeting.
 
@@ -16,7 +16,6 @@ This project performs comprehensive analysis of bank transaction data, simulatin
 |------|---------|
 | Python 3 | Core language |
 | Pandas | Data wrangling & aggregation |
-| NumPy | Numerical operations |
 | Matplotlib | Charts & visualizations |
 | Seaborn | Heatmaps & statistical plots |
 | Jupyter Notebook | Development environment |
@@ -75,10 +74,11 @@ Three CSV files merged into one unified dataframe:
 - Churn rate calculated using boolean mean
 - Active vs Churned pie chart
 - City-wise retention rate ranking
-- Campaign Targeting Lists (available in notebook):
+- Campaign Targeting Lists:
   - Win-Back — churned High/Mid Value customers
   - Loyalty Reward — active High Value customers
   - Upsell — active Mid Value customers
+- Summary: Campaign Audience Sizes
 
 ---
 
@@ -93,24 +93,6 @@ Three CSV files merged into one unified dataframe:
 
 ---
 
-## 🚀 How to Run
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/bank-transaction-analysis.git
-cd bank-transaction-analysis
-
-# 2. Install dependencies
-pip install pandas numpy matplotlib seaborn jupyter
-
-# 3. Add datasets to project folder
-#    customers.csv | accounts.csv | transactions.csv
-
-# 4. Launch notebook
-jupyter notebook Bank_Analysis_Extended.ipynb
-
-# 5. Run: Kernel > Restart & Run All
-```
 
 ---
 
@@ -119,7 +101,7 @@ jupyter notebook Bank_Analysis_Extended.ipynb
 ```
 bank-transaction-analysis/
 │
-├── Bank_Analysis_Extended.ipynb   <- Main analysis notebook
+├── Bank_Analysis.ipynb   <- Main analysis notebook
 ├── customers.csv                  <- Customer demographics
 ├── accounts.csv                   <- Account data
 ├── transactions.csv               <- Transaction records
@@ -128,17 +110,9 @@ bank-transaction-analysis/
 
 ---
 
-## 📝 Note
 
-Some advanced sections are available in the notebook as commented code:
-- High-Value Customer Profile (Top 10% by spend) — Cell 35
-- Campaign Audience Size Summary — Cell 42
-
-These can be uncommented and run independently without affecting other sections.
-
----
 
 ## 👩 Author
 
 **Richa Pareek** — Data Analyst | Python · SAS · Power BI · SQL
-pareekriya43@gmail.com | LinkedIn | GitHub
+pareekriya43@gmail.com 
